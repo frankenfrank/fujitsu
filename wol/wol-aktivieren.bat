@@ -6,10 +6,10 @@ CLS
 
 REM - - - - - START Anpassen
 SET JOBNAME=biospwd
-SET QUELLVERZEICHNIS=d:\Software\FTS_DeskViewx_BIOSSet
-SET ZIELVERZEICHNIS=c$\_ld-install
+SET QUELLVERZEICHNIS=c:\install\FTS_DeskViewx_BIOSSet
+SET ZIELVERZEICHNIS=c$\install
 SET COMPUTERLISTE=computerliste.txt
-SET PROGRAMMAUFRUF=C:\_ld-install\BiosSet.exe /expert 0x0011=0x0002
+SET PROGRAMMAUFRUF=c:\install\BiosSet.exe /expert 0x0011=0x0002
 
 REM - - - - - STOPP Anpassen
 
